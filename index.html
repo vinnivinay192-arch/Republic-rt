@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REPUBLIC RT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==============================================
+       1. INTRO SPLASH SCREEN
+  =============================================== -->
+  <div id="intro-screen" class="intro-screen">
+    <div class="intro-container">
+      
+      <!-- Samurai Warrior Logo -->
+      <div class="samurai-logo-wrapper">
+        <svg class="samurai-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="samuraiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#ff2a70"/>
+              <stop offset="50%" stop-color="#8a2be2"/>
+              <stop offset="100%" stop-color="#2d0a4e"/>
+            </linearGradient>
+          </defs>
+          <path d="M100 20 L125 55 L165 40 L140 85 L180 100 L140 120 L145 160 L100 185 L55 160 L60 120 L20 100 L60 85 L35 40 L75 55 Z" fill="#1f112e" stroke="url(#samuraiGrad)" stroke-width="4" stroke-linejoin="round"/>
+          <path d="M100 30 L115 65 L85 65 Z" fill="url(#samuraiGrad)"/>
+          <polygon points="68,105 92,108 85,115 65,112" fill="#00f5d4"/>
+          <polygon points="132,105 108,108 115,115 135,112" fill="#00f5d4"/>
+          <path d="M65 135 Q100 155 135 135 L130 165 Q100 180 70 165 Z" fill="#2d0a4e" stroke="url(#samuraiGrad)" stroke-width="2"/>
+        </svg>
+      </div>
+
+      <h1 class="intro-title" id="introTitle">REPUBLIC RT</h1>
+      <button class="intro-btn" id="signInBtn">SIGN IN</button>
+
+    </div>
+  </div>
+
+  <!-- ==============================================
+       2. MAIN WEBSITE (MATCHING REFERENCE IMAGE)
+  =============================================== -->
+  <div id="main-website" class="main-website hidden">
+
+    <!-- Top Section: Header & Hero -->
+    <header class="ref-hero-section">
+      <div class="site-width-container">
+        
+        <div class="hero-top-row">
+          <div class="hero-left-text">
+            <span class="brand-top-label">REPUBLIC RT</span>
+            <h1 class="main-heading">
+              BUY&amp;SELL<br>EXPLORE
+            </h1>
+          </div>
+
+          <!-- Striped Half Circle Geometric Motif (Reference Graphic) -->
+          <div class="hero-right-graphic">
+            <div class="striped-circle-container">
+              <div class="half-semi left-semi"></div>
+              <div class="half-semi right-semi"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sell-game-anchor">
+          <span>SELL YOUR GAME</span>
+          <div class="circle-arrow-icon">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <div class="section-divider-line"></div>
+
+    <main class="site-width-container">
+      
+      <!-- Section: Discover Your Gaming Marketplace -->
+      <section class="discover-block">
+        <div class="discover-grid">
+          <!-- Controller Picture with Offset Purple Card Backing -->
+          <div class="controller-visual-box">
+            <div class="purple-backing-offset"></div>
+            <div class="controller-img-holder">
+              <img src="https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=700&q=80" alt="Gaming Controller" />
+            </div>
+          </div>
+
+          <div class="discover-text-content">
+            <h2 class="sub-heading">Discover Your Gaming Marketplace</h2>
+            <p class="discover-body">
+              REPUBLIC RT is <strong>your vibrant platform</strong> for buying and selling games. We are dedicated to providing a <strong>secure, user-friendly</strong> experience for gamers everywhere, ensuring a diverse selection of titles and a community-focused environment where every player can thrive and connect.
+            </p>
+            <h3 class="ultimate-tagline">Your Ultimate Marketplace</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Key Benefits -->
+      <section class="benefits-block">
+        <div class="benefits-header-row">
+          <h2 class="section-headline">Key Benefits</h2>
+          <div class="hatch-pattern">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="ref-benefits-cards-grid">
+          <!-- Card 1 -->
+          <div class="purple-benefit-card">
+            <h3>Secure<br>Transactions</h3>
+            <p>Experience <strong>safe and secure transactions</strong> with our encrypted payment system, ensuring your financial information remains confidential.</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="purple-benefit-card">
+            <h3>Wide Variety</h3>
+            <p>Explore a <strong>wide variety of games</strong> across all platforms, from indie gems to blockbuster titles, catering to every gamer's taste.</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="purple-benefit-card">
+            <h3>User-Friendly<br>Design</h3>
+            <p>Enjoy a <strong>user-friendly design</strong> that makes navigating our marketplace seamless, whether you're buying or selling games.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Game Sales Overview -->
+      <section class="sales-overview-block">
+        <h2 class="section-headline">Game Sales Overview</h2>
+
+        <div class="sales-content-grid">
+          <!-- Left Starburst Icon Decor -->
+          <div class="starburst-decor-col">
+            <svg class="starburst-svg" viewBox="0 0 100 100" fill="none">
+              <circle cx="50" cy="50" r="48" stroke="#381042" stroke-width="1.2" stroke-dasharray="2 3"/>
+              <g stroke="#381042" stroke-width="1.2">
+                <line x1="50" y1="10" x2="50" y2="90"/>
+                <line x1="10" y1="50" x2="90" y2="50"/>
+                <line x1="22" y1="22" x2="78" y2="78"/>
+                <line x1="22" y1="78" x2="78" y2="22"/>
+                <line x1="35" y1="14" x2="65" y2="86"/>
+                <line x1="14" y1="35" x2="86" y2="65"/>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Right 3 Stacked Dark Purple Boxes -->
+          <div class="sales-stacked-boxes">
+            <!-- Box 1 -->
+            <div class="purple-metric-bar">
+              <div class="metric-text-left">
+                <div class="metric-big-num">15,000+</div>
+                <div class="metric-small-sub">Total games available</div>
+              </div>
+              <div class="metric-icon-right">
+                <i class="fa-solid fa-sparkles"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="purple-metric-bar">
+              <div class="metric-text-left">
+                <div class="metric-big-num">4.7 / 5</div>
+                <div class="metric-small-sub">Average User Rating</div>
+              </div>
+              <div class="metric-icon-right">
+                <i class="fa-solid fa-sparkles"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="purple-metric-bar">
+              <div class="metric-text-left">
+                <div class="metric-big-num">3,256</div>
+                <div class="metric-small-sub">Active Daily Traders</div>
+              </div>
+              <div class="metric-icon-right">
+                <i class="fa-solid fa-users"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Middle Banner: Join the gaming revolution today! -->
+      <section class="revolution-banner-section">
+        <h3 class="revolution-title">Join the gaming revolution today!</h3>
+        <p class="revolution-desc">
+          Experience the future of gaming with REPUBLIC RT, the ultimate marketplace where players thrive and games come to life.
+        </p>
+      </section>
+
+      <!-- Section: Featured Games -->
+      <section class="featured-block">
+        <div class="featured-card-container-wrapper">
+          <h2 class="section-headline mb-large">Featured Games</h2>
+
+          <div class="ref-games-grid">
+            <!-- Game 1: Epic Quest -->
+            <div class="purple-game-tile">
+              <div class="circle-avatar-wrapper">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=200&q=80" alt="Epic Quest avatar" />
+              </div>
+              <h3 class="tile-title">Epic Quest</h3>
+              <p class="tile-desc">
+                An action-packed adventure that takes you through a visually stunning world filled with challenges and thrilling quests.
+              </p>
+            </div>
+
+            <!-- Game 2: Battle Royale -->
+            <div class="purple-game-tile">
+              <div class="circle-avatar-wrapper">
+                <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=200&q=80" alt="Battle Royale avatar" />
+              </div>
+              <h3 class="tile-title">Battle Royale</h3>
+              <p class="tile-desc">
+                A multiplayer battle royale that combines intense gameplay with strategic teamwork, offering endless hours of fun and competition.
+              </p>
+            </div>
+
+            <!-- Game 3: RPG Adventure -->
+            <div class="purple-game-tile">
+              <div class="circle-avatar-wrapper">
+                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=200&q=80" alt="RPG Adventure avatar" />
+              </div>
+              <h3 class="tile-title">RPG Adventure</h3>
+              <p class="tile-desc">
+                An immersive RPG experience where players can explore vast landscapes, engage in epic battles, and forge their own destinies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Get in Touch! -->
+      <section class="get-in-touch-block">
+        <div class="touch-header-row">
+          <div>
+            <h2 class="section-headline">Get in Touch!</h2>
+            <p class="touch-subtitle">We're here to help with any questions!</p>
+          </div>
+          <div class="hatch-pattern">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <!-- 3 Exact Purple Contact Pill Cards -->
+        <div class="contact-pill-cards-grid">
+          <!-- Phone -->
+          <div class="purple-contact-pill">
+            <span class="pill-label">PHONE</span>
+            <span class="pill-val">6303985986</span>
+          </div>
+
+          <!-- Email -->
+          <div class="purple-contact-pill">
+            <span class="pill-label">EMAIL</span>
+            <span class="pill-val">vinaycreator606@gmail.com</span>
+          </div>
+
+          <!-- Social Media -->
+          <div class="purple-contact-pill">
+            <span class="pill-label">SOCIAL MEDIA</span>
+            <span class="pill-val">@republicrt0192</span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom Footer Spacer -->
+    <footer class="bottom-clean-footer">
+      <div class="site-width-container">
+        <p>&copy; 2026 REPUBLIC RT. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+                </html>
+  
